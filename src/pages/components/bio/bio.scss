@@ -1,0 +1,52 @@
+.Biodata{
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: 100px auto 0 auto;
+    margin-bottom: 58px;
+    @media(min-width: 992px){
+        flex-direction: row;
+        border-bottom: 5px solid #eeeeee;
+        padding-bottom: 35px;
+        margin-bottom: 28px;
+    }
+}
+
+.Biodata-title{
+    border-left:  5px solid #eeeeee;
+    padding-left: 14px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    @media(min-width: 992px){
+        font-size: 30px;
+    }
+}
+
+.Biodata-desc{
+    font-size: 11px;
+    margin-bottom: 15px;
+    @media(min-width: 992px){
+        font-size: 15px;
+    }
+}
+
+.Biodata-contactLogo{
+    width: 35px;
+    margin-right: 16px;
+    @media(min-width: 992px){
+        width: 41px;
+    }
+}
+
+.Biodata-contentImg{
+    display: flex;
+    justify-content: right;
+}
+.Biodata-contentImg--image{
+    width: 187px;
+    margin-top: -20px;
+    @media(min-width: 992px){
+        width: 328px;
+    }
+}

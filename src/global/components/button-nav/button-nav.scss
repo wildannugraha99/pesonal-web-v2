@@ -1,0 +1,32 @@
+.ButtonNav-btn {
+    padding: 5px 10px;
+    border: 2px solid #eeeeee;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #eeeeee;
+    cursor: pointer;
+    transition: 0.7s;
+    @media (min-width: 992px) {
+        padding: 9px 24px;
+    }
+}
+
+.ButtonNav-btnScroll {
+    padding: 5px 10px;
+    border: 2px solid #eeeeee;
+    border-radius: 30px;
+    background-color: transparent;
+     color: #eeeeee;
+    cursor: pointer;
+    transition: 0.7s;
+    @media (min-width: 992px) {
+        padding: 9px 24px;
+        border: 2px solid #020c1b;
+        color: #020c1b;
+    }
+}
+
+.ButtonNav-btn:hover, .ButtonNav-btnScroll:hover {
+    background-color: #020c1b;
+    color: #eeeeee;
+}

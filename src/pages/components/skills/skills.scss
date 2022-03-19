@@ -1,0 +1,30 @@
+.Skills-logo{
+   
+    max-width: 1024px;
+    margin: 0 auto 50px auto;
+    .Skills-title{
+        font-size:16px ;
+        margin-bottom: 21px;
+        border-left: 5px solid #eeeeee;
+        padding-left: 13px;
+        @media(min-width: 992px){
+            font-size:22px ;
+            margin-bottom: 32px;
+        }
+    }
+
+    .Skills-logoWrapper{
+        display: flex;
+    }
+
+
+    img{
+        width: 49px;
+        margin-right: 12px;
+        margin-left: -12px;
+        @media(min-width: 992px){
+           width: 87px;
+           margin-right: 21px;
+        }
+    }
+}

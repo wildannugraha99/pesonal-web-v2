@@ -1,0 +1,37 @@
+.Projects{
+    max-width: 1024px;
+    margin: 0 auto;
+    border-bottom: 5px solid #eeeeee;
+    padding-bottom: 30px;
+    margin-bottom: 37px;
+    @media(min-width: 992px){
+        padding: 0 25px 50px 25px;
+        margin-bottom: 73px;
+    }
+}
+
+.Projects-title{
+    font-size: 16px;
+    border-left: 5px solid #eeeeee;
+    padding-left: 13px;
+    margin-bottom: 30px;
+    @media(min-width: 992px){
+        font-size: 22px;
+    }
+}
+#splider {
+    width: 100% !important;
+   @media(min-width: 992px){
+       margin: 0 auto;
+       width: 65% !important;
+   }
+}
+
+
+.SplideBox{
+    
+}
+.splide__arrow--next{
+   
+}
+

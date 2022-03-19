@@ -1,0 +1,68 @@
+.Certificate {
+  max-width: 1024px;
+  margin: 0 auto;
+
+  margin-bottom: 50px;
+  @media(min-width: 992px){
+    margin-bottom: 120px;
+  }
+}
+
+.Certificate-title {
+  font-size: 16px;
+  border-left: 5px solid #eeeeee;
+  padding-left: 13px;
+  margin-bottom: 20px;
+  @media (min-width: 992px) {
+    font-size: 22px;
+    margin-bottom: 44px;
+  }
+}
+
+.Certificate--flex {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  @media (min-width: 992px) {
+    justify-content: left;
+  }
+
+  .Random-img {
+    display: none;
+    @media (min-width: 992px) {
+      z-index: -1;
+      display: unset;
+      position: absolute;
+      top: -120px;
+      right: 0;
+      width: 415px;
+    }
+  }
+}
+
+.splide {
+  width: 100%;
+  @media (min-width: 992px) {
+    width: 426px !important;
+  }
+}
+
+.splide__slide {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.splide__arrow {
+  border: none !important;
+  background-color: transparent !important;
+}
+.splide__arrow--prev {
+  content: url("../../../assets/images/left.svg");
+ 
+}
+
+.splide__arrow--next {
+  content: url("../../../assets/images/right.svg");
+ 
+}

@@ -1,0 +1,89 @@
+.Experience {
+    max-width: 1024px;
+    margin: 0 auto;
+  
+    margin-bottom: 70px;
+}
+
+.Experience-contentContainer {
+    position: relative;
+    @media(min-width: 992px){
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.Experience-rocket {
+    position: absolute;
+    top: 40px;
+    right: -20px;
+    z-index: -3;
+ 
+    img {
+        width: 200px;
+        height: 280px;
+        object-fit: cover;
+        object-position: 0px; 
+    }
+    @media(min-width: 992px){
+        position:unset;
+        img{
+            object-fit: unset;
+            object-position:unset;
+            margin-top: -35px;
+        }
+    }
+}
+
+.Experince-box{
+    margin-bottom: 58px;
+}
+
+.Experince-contentTextContainer{
+   @media(min-width: 992px){
+    &:nth-child(1){
+        margin-bottom: 32px;
+     }
+ 
+     &:nth-child(2){
+         margin-left: 60px;
+     }
+   }
+}
+
+.Experience-title {
+    font-size: 16px;
+    border-left: 5px solid #eeeeee;
+    padding-left: 17px;
+    margin-bottom: 21px;
+    @media(min-width: 992px){
+        margin-left: auto;
+        width: fit-content;
+        font-size: 22px;
+    }
+}
+
+.Experience-itemTitle {
+    font-size: 14px;
+    text-decoration: underline;
+    margin-bottom: 9px;
+    @media(min-width: 992px){
+        font-size: 17px;
+    }
+}
+
+.Experience-itemPlace {
+    font-size: 12px;
+    margin-bottom: 9px;
+    @media(min-width: 992px){
+        font-size: 14px;
+    }
+}
+
+.Experince-itemDate {
+    font-size: 10px;
+    margin-bottom: 21px;
+    @media(min-width: 992px){
+        font-size: 12px;
+    }
+}
