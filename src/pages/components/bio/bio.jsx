@@ -3,7 +3,7 @@ import AOS from "aos";
 
 import "./bio.scss";
 
-import wa from "../../../assets/images/whatsapp.png";
+import wa from "../../../assets/images/WhatsApp.png";
 import linkedin from "../../../assets/images/linkedin.png";
 import male2 from "../../../assets/images/male-2.png";
 
