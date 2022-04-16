@@ -1,27 +1,28 @@
 .Navbar {
+  top: 0;
   height: 39px;
   @media (min-width: 992px) {
     position: fixed;
-    top: 30px;
     left: 0;
     width: 100%;
     z-index: 2;
     height: auto;
-    padding: 20px 0;
+    padding: 50px 0;
     transition: 0.5s;
   }
 }
 
 .Navbar--bg {
+  top: 0;
+  height: 39px;
   @media (min-width: 992px) {
     position: fixed;
-    top: 0;
     left: 0;
     width: 100%;
     z-index: 2;
     height: auto;
     padding: 20px 0;
-    background-color: rgba($color: #ffffff, $alpha: 0.8);
+    background-color: rgba($color: #ffffff, $alpha: 1);
     transition: 0.5s;
   }
 }
@@ -34,11 +35,9 @@
   width: 0;
   height: 100%;
   transition: 0.5s;
+
   .close {
     display: none;
-    position: absolute;
-    top: 25px;
-    right: 10px;
   }
 
   .Navbar-buttonMenu {
@@ -76,6 +75,7 @@
     position: absolute;
     top: 25px;
     right: 30px;
+    padding: 0;
   }
 
   .Navbar-btnContainer--mr {

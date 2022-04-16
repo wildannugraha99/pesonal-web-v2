@@ -8,7 +8,7 @@ const CardComponent = ({ foto, title, desc, link }) => {
       <Card
         loading={false}
         hoverable={true}
-        cover={<Image alt="example" src={foto} />}
+        cover={<Image alt="example" src={foto} loading="lazy" />}
       >
         {title !== undefined && (
           <Meta style={{ padding: "15px" }} title={title} description={desc} />

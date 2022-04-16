@@ -7,11 +7,11 @@ import close from "../../../assets/images/close.svg";
 
 import "./navbar.scss";
 
-const Navbar = ({ scrollPosition }) => {
+const Navbar = ({ scrollPosition, widthScreen }) => {
   const { onClickBtn, isShow } = useToogle();
 
   return (
-    <div className={scrollPosition <= 140 ? "Navbar" : "Navbar--bg"}>
+    <div className={scrollPosition < 140 ? "Navbar" : "Navbar--bg"}>
       <div
         className={
           isShow ? "Navbar-btnContainer--show" : "Navbar-btnContainer--hide"

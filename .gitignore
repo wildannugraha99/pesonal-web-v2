@@ -23,5 +23,7 @@ dist-ssr
 *.sln
 
 .package-lock.json
+.yarn.lock
+.yarn-error.log
 
 .vercel

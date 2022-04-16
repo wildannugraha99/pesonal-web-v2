@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import AOS from "aos";
 import { useSendEmail } from "./email-message.hook";
 
 import email from "../../../assets/images/email.png";
@@ -5,6 +7,11 @@ import "./email-message.scss";
 
 const EmailMessage = () => {
   const { sendEmail, form } = useSendEmail();
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
 
   return (
     <div className="Email" id="MyEmail">
@@ -59,6 +66,7 @@ const EmailMessage = () => {
           className="Email-randomImg"
           data-aos="fade-up"
           aos-duration="2000"
+          loading="lazy"
         />
       </div>
     </div>

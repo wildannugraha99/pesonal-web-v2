@@ -14,23 +14,21 @@ import {useScroll} from './global/services/useScroll.hook'
 
 
 function App() {
-
-  const {scrollPosition} = useScroll()
-   
+  const { scrollPosition } = useScroll();
   return (
     <div className="App">
-     <Navbar scrollPosition = {scrollPosition}/>
-      <Landing/>
-      <Bio/>
-      <Experience/>
-      <Skills/>
-      <Certificate/>
-      <Projects/>
-      <EmailMessage/>
-     <Footer/>
-      <BackTop/>
+      <Navbar scrollPosition={scrollPosition} />
+      <Landing />
+      <Bio />
+      <Experience />
+      <Skills />
+      <Certificate />
+      <Projects />
+      <EmailMessage />
+      <Footer />
+      <BackTop />
     </div>
-  )
+  );
 }
 
 export default App

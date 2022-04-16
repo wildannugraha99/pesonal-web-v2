@@ -5,5 +5,6 @@ import App from "./App";
 
 import "@splidejs/splide/dist/css/splide.min.css";
 import "antd/dist/antd.css";
+import "aos/dist/aos.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));
