@@ -25,7 +25,7 @@ const Bio = () => {
           developer and UI/UX design. Therefore, to support my passion and
           enthusiasm for front-end developers and UI/UX design, I have
           sufficient understanding of using HTML, CSS, Javascript, React and
-          also the Figma design application
+          also the Figma design application.
         </div>
         <a href="##">
           <img src={wa} alt="" className="Biodata-contactLogo" loading="lazy" />
